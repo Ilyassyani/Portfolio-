@@ -1,0 +1,547 @@
+body
+{
+    background-color: #11071F;
+    
+    margin: 0;
+    padding: 0;
+}
+*
+{
+    letter-spacing: 2%;
+    font-family:'Preahvihear',sans-serif;
+}
+h1,p
+{
+    margin: 0;
+}
+.head
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1A0B2E;
+    padding: 1.5rem 2rem;
+    align-items: center;
+}
+.headR
+{
+    height: 39px;
+    width: 35px;
+}
+.headR img
+{
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+.headL
+{
+    display: flex;
+    gap: 6rem;
+    transition: all 0.3s ease-in-out;
+}
+.headL h1
+{
+    color: rgb(188, 188, 188);
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    line-height: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+.headL h1:hover
+{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.headL span
+{
+    display: none;
+}
+.headtel
+{
+    display: none;
+}
+.rectangle1 
+{   
+    height: 3px;
+    width: 35px;
+    background-color: #763CAC;
+}
+hr
+{
+    margin: 0;
+}
+
+
+.Pres
+{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+.Pres img
+{
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+.Hello
+{
+    position: relative;
+    margin: 0 15rem 0 0;
+}
+.Hello span
+{
+    font-family:'Preahvihear',sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 97px;
+    letter-spacing: -0.5px;
+    text-align: center;
+    vertical-align: middle;
+    color:white ;
+}
+.Hello span:nth-of-type(2)
+{
+    color: #763CAC;
+}
+.Vector
+{
+    position: absolute;
+    top: 3.5rem;
+    left: -5rem;
+}
+.Rond1
+{
+    max-width: 100%;
+    height: 18rem;
+    border-radius: 9999px; 
+    position: relative;
+    z-index: 1;
+}
+.Rond2
+{
+    width: 258px;
+    height: 259px;
+    background: radial-gradient(50% 50% at 50% 50%, #763CAC 0%, rgba(50, 15, 133, 0) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+    left: -2rem;
+    top: -1rem;
+}
+.Rond2 img
+{
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+.avatar
+{
+    display: flex;
+    position: relative;
+    z-index: 1;
+    gap: 13rem; 
+}
+.avatarG 
+{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+    gap: 1rem;
+}
+.avatarG p
+{
+    color: white;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 100%;
+    vertical-align: middle;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 0%;
+}
+.avatarG h1
+{
+    color: white;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 127%;
+    letter-spacing: 2%;
+    vertical-align: middle;
+    text-align: center;
+}
+.avatarG span
+{
+    color: white;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 100%;
+    letter-spacing: 2%;
+    vertical-align: middle;
+}
+
+.Presss
+{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+.WorkExp
+{
+    position: relative;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 700px;
+}
+
+.Rond4
+{
+    width: 625px;
+    height: 700px;
+    background: radial-gradient(50% 50% at 50% 50%, #763CAC 0%, rgba(50, 15, 133, 0) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 0;
+    right: 0;
+    top: 0;
+}
+
+.Carte
+{
+    max-width: 100%;
+    width: 530px;
+    border-radius: 15px;
+    display: flex;
+    background: linear-gradient(95.56deg, #130428 0.58%, #251043 16.32%, #38126D 29.33%, #261045 45.66%, #190634 54.44%);
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 4px 7px 26px 0px #0000001F;
+    align-items: center;
+    gap: 2rem;
+    margin: 1rem 0;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+.Icone img 
+{
+    width: 100px;
+    height: auto;
+}
+
+
+.Contenu h3 
+{
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32.5px;
+    letter-spacing: 1px;
+}
+  
+.Contenu p 
+{
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 10.5px;
+    letter-spacing: 0.7px;
+    margin: 1rem 0;
+}
+.Contenu button 
+{
+    background-color: #2C1250;
+    border: 1px solid #693B93;
+    padding: 0.5rem 1.2rem;
+    border-radius: 0.5rem;
+    color: white;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+  
+.Contenu button:hover 
+{
+    cursor: pointer;
+    background: white;
+    color: #1e103f;
+    transition: 0.5s;
+}
+
+.Carte h3,p,button
+{
+    font-family: 'Poppins', sans-serif;
+}
+
+.ligne1
+{
+    display: flex;
+    gap: 1rem;
+}
+.Domaines
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+.txt
+{
+    color: white;
+    font-weight: 400;
+    line-height: 31px;
+    text-align: center;
+    vertical-align: middle;
+}
+.txt span
+{
+    font-size: 24px;
+}
+.txt span:nth-of-type(2)
+{
+    color: #A362FF;
+}
+.txt p
+{
+    font-size: 17px;
+    letter-spacing: 2%;
+}
+.Domaines img
+{
+    max-width: 374px;
+    height: 100%;
+    object-fit: contain;
+}
+.Contact
+{
+    padding: 3rem 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    line-height: 100%;
+    letter-spacing: 2%;
+    font-weight: 400;
+}
+.ContactContent
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.Contact h1
+{
+    font-size: 25px;
+}
+.Contact span
+{
+    font-size: 15px;
+}
+.ContactIcone
+{
+    display: flex;
+    gap: 2rem;
+}
+
+.contient1
+{
+    background-color: inherit;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.contient1 img
+{
+    max-width: 100%;
+    height: 100%;
+    object-fit: contain;
+    cursor: pointer;
+}
+.contient1:hover
+{
+    background-color: #693B93;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+/* Format iPhone */
+@media screen and (max-width: 500px) 
+{
+    h1,p 
+    {
+        margin: 1rem 0;
+    }
+    .head
+    {
+        background: inherit;
+    }
+    .headR
+    {
+        display: none; /* cache toute la barre normale */
+    }
+    .headtel 
+    {
+        display: flex; /* affiche le bouton hamburger */
+        flex-direction: column;
+        gap: 5px;
+        position: fixed;
+        top: 1rem;
+        left: 1rem;
+        background-color: #ccc;
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+    }
+
+    .headL 
+    {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #1A0B2E;
+        height: 100vh;
+        width: 50%;
+        padding: 2rem;
+        z-index: 999;
+    }
+
+    .headL.active 
+    {
+        display: flex; /* quand on clique sur le burger menu */
+    }
+
+    .headL span
+    {
+        display: flex;
+        color: white;
+        font-size: 20px;
+        margin-top: 2rem;
+        cursor: pointer;
+        position: absolute;
+        top: 0;
+    }
+    hr
+    {
+        display: none;
+    }
+    .avatar 
+    {
+        flex-direction: column;
+    }
+    .avatarG h1
+    {
+        font-size: 2rem;
+    }
+    .Rond1 
+    {
+        height: 9rem; 
+    }
+    .Hello
+    {
+        position: absolute;
+        right: 2rem;
+        margin: 0;
+    }
+    .Hello span
+    {
+        font-size: 13px;
+    }
+    .Rond2
+    {
+        top: 6rem;
+    }
+    .Presss
+    {
+        gap: 2rem;
+    }
+    .lien span
+    {
+        font-size: 12px;
+    }
+    .ligne1
+    {
+        flex-direction: column;
+    }
+    .Carte 
+    {
+        width: 300px;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1rem;
+        gap: 1rem;
+    }
+    .Icone img 
+    {
+        width: 80px;
+        height: auto;
+    }
+    .Contenu h3 
+    {
+        font-size: 20px;
+    }
+    
+    .Contenu p 
+    {
+        font-size: 10px;
+        line-height: 1.2;
+    }
+    
+    .Contenu button 
+    {
+        font-size: 10px;
+        padding: 0.4rem 1rem;
+    }
+    .Rond4
+    {
+        height: 1400px;
+        right:0;
+        bottom:50% ;
+    }
+    .Domaines
+    {
+        gap: 0;
+    }
+    .Domaines span
+    {
+    font-size: 18px;
+    }
+    .Domaines p
+    {
+        font-size: 11px;
+        letter-spacing: 2%;
+    }
+    .Domaines img
+    {
+        max-width: 300px;
+    }
+    
+}
+
+
+
