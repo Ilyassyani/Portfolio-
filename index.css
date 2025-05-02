@@ -333,8 +333,8 @@ hr
     display: flex;
     justify-content: center;
     line-height: 100%;
-    letter-spacing: 2%;
     font-weight: 400;
+    height: 100vh;
 }
 .ContactContent
 {
